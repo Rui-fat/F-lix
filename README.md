@@ -1,1 +1,11 @@
-# F-lix
+# Projeto Gato Félix - Disciplina Informática e Negócios
+Aula do Professor PhD. Bruno Zolotareff dos Santos <br> 
+Fatec Mauá - Informática para Negócios
+
+
+## Grupo
+Rui <br>
+João Ferreira <br>
+Lucas Monteiro <br>
+Matheus <br>
+Jordani <br>
