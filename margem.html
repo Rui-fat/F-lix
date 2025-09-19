@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margem</title>
+</head>
+<body>
+
+    <style>
+    
+     .container{  padding-left: 625px; background-color: rgb(97, 97, 97); display: flex;
+     flex-direction: row; background-color: black;
+      margin-left: 60px; margin-right: 60px;
+      margin-top: 100px; margin-bottom: 80px;
+      border: px solid grey; padding-top:50px; padding-bottom: 50px;}
+
+      body{background-color: rgb(36, 36, 37);}
+
+     .sizeimage{width: 260px; height: 180px; padding-top: 77px;}
+
+     .forms{display: flex; flex-direction: column;
+    background-color: rgb(141, 141, 141);
+    margin: 25px; border: 5px solid rgb(194, 185, 185); margin-left: 10px;
+    margin-right: 1300px; padding-left: 5px; padding-right: 5px;
+    padding-bottom: 10px; gap: 5px;}
+
+     .caixa{font-size: 20px;
+     font-family: 'Times New Roman', Times, serif; color:black;
+     font-weight: bold;}
+
+     .btn1{font-size: 16px; font-weight: bold; border-radius: 20px;}
+     .btn1:hover {background-color: black; color: white;}
+     .btn2{font-size: 16px; font-weight: bold; border-radius: 20px;}
+     .btn2:hover{background-color: black; color: white;}
+     h1{white-space: nowrap;}
+
+    </style>
+
+  <div class="container">
+      <div>
+        <img src="img/Logo_Felix.png" alt="gato" class="sizeimage">
+      </div>
+    <div class= "forms">
+      <h1> Cadastro do clube Felix</h1>
+      <input type="text" id="nome" placeholder="Coloque seu nome" class="caixa">
+      <input type="text" id="E-Mail" placeholder="Seu E-mail" class="caixa">
+      <input type="text" id="telefone" placeholder="Seu telefone" class="caixa">
+
+      <button type="button" id="cadastrar" class="btn1">Cadastrar</button>
+      <button type="button" id="Enviar" class="btn2">Enviar</button>
+    </div>
+
+  </div>
+    
+<!--img{border-radius: 25%;} dentro do style adiciona um raio 
+nos cantos da imagem, como a minha não tem esse canto, então sem uso.
+padding: é o espaço entre a borda e o objeto, pode ser usado para centralizar
+font-weight: bold--deixa a fonte em negrito
+gap:adiciona um espaço entre linhas?(usamos no botão, nao sei se é)
+display: começo de css
+input type="text" id="telefone" placeholder="Seu telefone" class="caixa"--cria caixas de texto
+button type="button" id="cadastrar" class="btn1">Cadastrar</butto--cria botões
+usei h1{white-space: nowrap;} e flex-direction: row em .container para o desafio do professor
+-->
+</body>
+</html>
